@@ -335,7 +335,7 @@ void findFollow(FILE* f, char* init){
 
 // Main Method
 void main(){
-    FILE* f = fopen("productions.txt", "r");
+    FILE* f = fopen("grammar.txt", "r");
 
     printf("Reading the productions from \"productions.txt\": \n\n");
     displayProductions(f);
