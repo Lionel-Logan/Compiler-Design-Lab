@@ -1,0 +1,4 @@
+yacc -d <file.y>
+lex <file.l>
+gcc lex.yy.c y.tab.c -o <output-name> -ll
+./output-name

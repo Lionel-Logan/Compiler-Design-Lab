@@ -1,0 +1,3 @@
+gcc -Iinclude -c utils/hashmap.c utils/linkedlist.c utils/queue.c eclosure.c
+gcc hashmap.o linkedlist.o queue.o eclosure.o
+./a.out

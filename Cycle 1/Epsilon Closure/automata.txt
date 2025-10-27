@@ -1,0 +1,4 @@
+A e B
+B e C
+C e B
+D a A
