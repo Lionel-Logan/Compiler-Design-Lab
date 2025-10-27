@@ -13,7 +13,23 @@ typedef struct Node{
 Node* head = NULL;
 
 /*
-displayProductions(FILE* f) - Reads and displays productions from the file
+displayProductions() - Reads and displays productions from the file
+displayFirst() - Displays the first of all productions
+displayFollow() - Display the follow of all productions
+
+readNonTerminals() - Reads non-terminals for a given production
+
+isNonTerminal() - Checks if the input is a non-terminal
+containsTerminalInFirst() - Checks if terminal exists in First
+containsTerminalInFollow() - Checks if terminal exists in Follow
+
+addToFirst() - add terminal to First
+addToFollow() - add terminal to Follow
+addFirstToFollow() - add First to Follow
+addFollowToFollow() - add Follow to Follow
+
+findFirst() - Computational logic for finding First
+findFollow() - Computational logic for finding Follow
 */
 
 // Display Methods
